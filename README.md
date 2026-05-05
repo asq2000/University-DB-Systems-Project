@@ -15,8 +15,8 @@ student enrollments using SQLite — all built and queried within a Jupyter Note
 
 | File | Description |
 |------|-------------|
-| [`student_db.sqlite.ipynb`](student_db.sqlite.ipynb) | Main Jupyter Notebook — database implementation & queries |
-| [`Final Project.db-Report.pdf`](Final%20Project.db-Report.pdf) | Full project report including schema, E/R diagram & results |
+| [`student_db.sqlite.ipynb`](Database--Final%20Project/student_db.sqlite.ipynb) | Main Jupyter Notebook — database implementation & queries |
+| [`Final Project.db-Report.pdf`](Database--Final%20Project/Final%20Project.db-Report.pdf) | Full project report including schema, E/R diagram & results |
 
 ---
 
@@ -89,11 +89,12 @@ ENROLLMENT(
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/asq2000/Database--Final-Project.git
+   git clone https://github.com/asq2000/University-DB-Systems-Project.git
 ```
 
 2. Open the Jupyter Notebook:
 ```bash
+   cd "Database--Final Project"
    jupyter notebook student_db.sqlite.ipynb
 ```
 
